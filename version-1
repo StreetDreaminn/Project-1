@@ -1,0 +1,92 @@
+import datetime
+
+Zodiac_Signs = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
+
+Day = int(input("Please enter your day of birth: "))
+Month = int(input("Please enter your month of birth: "))        
+Year = int(input("Please enter your year of birth: "))
+birthday = datetime.date(Year, Month, Day)
+
+if birthday.month == 1:
+    
+    if birthday.day > 19:
+        print("You are a {[10]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[9]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 2:
+    
+    if birthday.day > 18:
+        print("You are a {[11]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[10]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 3:
+    
+    if birthday.day > 20:
+        print("You are a {[0]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[11]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 4:
+    
+    if birthday.day > 19:
+        print("You are a {[1]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[0]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 5:
+    
+    if birthday.day > 20:
+        print("You are a {[2]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[1]}!".format(Zodiac_Signs))
+
+elif birthday.month == 6:
+    
+    if birthday.day > 20:
+        print("You are a {[3]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[2]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 7:
+    
+    if birthday.day > 22:
+        print("You are a {[4]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[3]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 8:
+    
+    if birthday.day > 22:
+        print("You are a {[5]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[4]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 9:
+    
+    if birthday.day > 22:
+        print("You are a {[6]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[5]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 10:
+    
+    if birthday.day > 22:
+        print("You are a {[7]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[6]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 11:
+    
+    if birthday.day > 21:
+        print("You are a {[8]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[7]}!".format(Zodiac_Signs))
+        
+elif birthday.month == 12:
+    
+    if birthday.day > 21:
+        print("You are a {[9]}!".format(Zodiac_Signs))
+    else:
+        print("You are a {[8]}!".format(Zodiac_Signs))
