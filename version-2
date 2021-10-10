@@ -3,7 +3,7 @@ import datetime
 Zodiac_Signs = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"]
 
 Day = int(input("Please enter your day of birth: "))
-Month = int(input("Please enter your month of birth: "))        
+Month = int(input("Please enter your month of birth expressed as a number: "))   
 Year = int(input("Please enter your year of birth: "))
 birthday = datetime.date(Year, Month, Day)
 
